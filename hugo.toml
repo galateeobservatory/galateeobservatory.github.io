@@ -6,7 +6,7 @@ theme = 'galatee'
 [menu]
   [[menu.main]]
     name = 'Histoire'
-    url = '/histoire/'
+    url = '/'
     weight = 1
   [[menu.main]]
     name = 'Technique'
