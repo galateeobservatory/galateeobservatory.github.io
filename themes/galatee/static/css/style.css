@@ -1,3 +1,5 @@
+/* Version 1.0.1 */
+
 :root {
     --primary-color: #6B5FD3;
     --text-color: #333;
@@ -28,17 +30,23 @@ body {
     display: flex;
     align-items: center;
     gap: 2rem;
+    padding: 1rem;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.logo {
+.logo-round {
     width: 150px;
-    height: auto;
+    height: 150px;
+}
+
+.logo-text {
+    height: 120px;
+    width: auto;
 }
 
 .site-title {
@@ -50,6 +58,7 @@ body {
 
 .header-text {
     flex-grow: 1;
+    text-align: left;
 }
 
 .welcome {
@@ -112,13 +121,57 @@ footer {
 
 @media screen and (max-width: 1080px) {
     .header-content {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: row;
+        text-align: left;
+        padding: 0;
+    }
+
+    .header-text {
+        text-align: left;
+        padding: 1rem;
+        font-size: 0.9em;
+    }
+
+    .logo-container {
+        justify-content: flex-start;
+        flex-direction: row;
     }
 
     .main-nav ul {
         flex-direction: column;
         align-items: center;
+    }
+
+    .logo-text {
+        display: none;
+    }
+    
+    .logo-round {
+        width: 100px;
+        height: 100px;
+    }
+
+    .welcome {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-text {
+        font-size: 0.8em;
+    }
+
+    .logo-round {
+        width: 80px;
+        height: 80px;
+    }
+
+    .welcome {
+        font-size: 1.2rem;
     }
 }
 
@@ -182,4 +235,16 @@ q::after {
 /* Pour les citations plus longues qui doivent pouvoir aller à la ligne */
 q.multiline {
     white-space: normal;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 } 

@@ -7,26 +7,7 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
-    <header class="site-header">
-        <div class="header-content">
-            <div class="logo-container">
-                <img src="{{ "images/logo.png" | relURL }}" alt="Galatée Observatory Logo" class="logo">
-                <h1 class="site-title">Galatée<br>Observatory</h1>
-            </div>
-            <div class="header-text">
-                <h2 class="welcome">Bienvenue à Galatée !</h2>
-                <p class="subtitle">Un observatoire astronomique automatique et pilotable à distance via l'Internet</p>
-                <p class="tagline">Un clic... Et l'espace vous appartient...</p>
-            </div>
-        </div>
-        <nav class="main-nav">
-            <ul>
-                {{ range .Site.Menus.main }}
-                <li><a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a></li>
-                {{ end }}
-            </ul>
-        </nav>
-    </header>
+    {{ partial "header.html" . }}
 
     <main>
         {{ block "main" . }}{{ end }}

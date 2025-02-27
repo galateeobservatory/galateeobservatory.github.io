@@ -1,2 +1,20 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<header class="site-header">
+    <div class="header-content">
+        <div class="logo-container">
+            <img src="/images/logogalatee.svg?v=1" alt="Logo Galatée" class="logo-round">
+            <img src="/images/textgalatee.svg?v=1" alt="Texte Galatée" class="logo-text">
+        </div>
+        <div class="header-text">
+            <h2 class="welcome">Bienvenue à Galatée !</h2>
+            <p class="subtitle">Un observatoire astronomique automatique et pilotable à distance via l'Internet</p>
+            <p class="tagline">Un clic... Et l'espace vous appartient...</p>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <ul>
+            {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
+</header>
