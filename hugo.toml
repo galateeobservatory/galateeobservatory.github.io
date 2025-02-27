@@ -1,0 +1,37 @@
+baseURL = 'https://galatee-observatory.org/'
+languageCode = 'fr-fr'
+title = 'Galatée Observatory'
+theme = 'galatee'
+
+[menu]
+  [[menu.main]]
+    name = 'Histoire'
+    url = '/histoire/'
+    weight = 1
+  [[menu.main]]
+    name = 'Technique'
+    url = '/technique/'
+    weight = 2
+  [[menu.main]]
+    name = 'Utilisateurs'
+    url = '/utilisateurs/'
+    weight = 3
+  [[menu.main]]
+    name = 'Travaux initiaux'
+    url = '/travaux-initiaux/'
+    weight = 4
+  [[menu.main]]
+    name = 'Acteurs'
+    url = '/acteurs/'
+    weight = 5
+  [[menu.main]]
+    name = 'Emplacement'
+    url = '/emplacement/'
+    weight = 6
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 7
+
+[params]
+  description = "Un observatoire astronomique automatique et pilotable à distance via l'Internet"
