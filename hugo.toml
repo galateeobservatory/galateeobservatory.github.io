@@ -1,4 +1,4 @@
-baseURL = 'https://galatee-observatory.org/'
+baseURL = 'https://www.galatee-observatory.org/'
 languageCode = 'fr-fr'
 DefaultContentLanguage = "fr-fr"
 title = 'Galatée Observatory'
