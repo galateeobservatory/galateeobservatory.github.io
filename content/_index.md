@@ -6,6 +6,8 @@ title: "Accueil"
 
 Quelle est sans aucun doute la meilleure place pour observer le ciel ? La montagne bien sûr ! Un endroit près des étoiles mais aussi très difficile d'accès.
 
+{{< figure src="/images/draix.jpg" alt="Vue de Draix" caption="Vue de Draix" >}}
+
 Afin de tirer le meilleur parti d'un instrument astronomique, il est nécessaire d'observer le ciel depuis un site présentant des caractéristiques aérologiques bien particulières. Les nuages doivent être rares, les nuits sombres, le ciel clair et l'air stable. Les meilleurs sites sont donc loin des villes, au sommet de montagnes choisies. L'accès à ces sites étant rarement simple, ils sont difficilement exploitables, surtout pour les astronomes amateurs. Heureusement, beaucoup d'observations ne nécessitent pas la présence d'un observateur auprès du télescope, s'il est possible de le commander à distance.
 
 Notre objectif est donc de construire un observatoire astronomique sur un site choisi pour la qualité de son ciel. Cet observatoire sera télé-pilotable via Internet. Chacun pourra l'utiliser depuis n'importe quel ordinateur relié au réseau. Il suffira de donner les coordonnées d'un point du ciel à viser, ou le nom d'un objet connu, de fixer les paramètres de l'observation, et l'image obtenue sera retransmise vers l'observateur, toujours via Internet.
