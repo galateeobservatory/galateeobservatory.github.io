@@ -2,6 +2,12 @@
 title: "Contact"
 ---
 
-## Nous contacter
+## Contact
 
-*Cette section est en cours de rédaction* 
+Vous pouvez nous contacter via l'adresse e-mail suivante:
+
+![Screenshot of contact email adress, audio below](/images/mailcontact.png)
+
+Écouter l'adresse e-mail:
+
+{{< audio src="/audio/mailcontact.mp3" >}}
