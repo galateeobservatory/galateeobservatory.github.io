@@ -1,0 +1,7 @@
+<picture>
+    <source srcset="{{ .Get "avif" }}" type="image/avif">
+    <source srcset="{{ .Get "webp" }}" type="image/webp">
+    <source srcset="{{ .Get "jpg" }}" type="image/jpeg">
+    <img src="{{ .Get "jpg" }}" alt="{{ .Get "alt" }}" {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+    <figcaption>{{ .Get "caption" }}</figcaption>
+</picture> 

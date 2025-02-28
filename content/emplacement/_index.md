@@ -6,7 +6,7 @@ title: "Emplacement"
 
 ## Où est construit l'observatoire ?
 
-{{< figure src="/images/thoramebasse.jpg" alt="Vue de Thorame-Basse" caption="Vue de Thorame-Basse" >}}
+{{< picture avif="/images/small/thoramebasse-small.avif" webp="/images/small/thoramebasse-small.webp" jpg="/images/small/thoramebasse-small.jpg" alt="Vue de Thorame-Basse" caption="Vue de Thorame-Basse" >}}
 
 Le site d'implantation de l'observatoire a été choisi en faisant un compromis entre plusieurs paramètres classés par ordre décroissant d'importance.
 

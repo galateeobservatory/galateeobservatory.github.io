@@ -6,7 +6,7 @@ title: "Accueil"
 
 Quelle est sans aucun doute la meilleure place pour observer le ciel ? La montagne bien sûr ! Un endroit près des étoiles mais aussi très difficile d'accès.
 
-{{< figure src="/images/draix.jpg" alt="Vue de Draix" caption="Vue de Draix" >}}
+{{< picture avif="/images/small/draix-small.avif" webp="/images/small/draix-small.webp" jpg="/images/small/draix-small.jpg" alt="Vue de Draix" caption="Vue de Draix" >}}
 
 Afin de tirer le meilleur parti d'un instrument astronomique, il est nécessaire d'observer le ciel depuis un site présentant des caractéristiques aérologiques bien particulières. Les nuages doivent être rares, les nuits sombres, le ciel clair et l'air stable. Les meilleurs sites sont donc loin des villes, au sommet de montagnes choisies. L'accès à ces sites étant rarement simple, ils sont difficilement exploitables, surtout pour les astronomes amateurs. Heureusement, beaucoup d'observations ne nécessitent pas la présence d'un observateur auprès du télescope, s'il est possible de le commander à distance.
 
