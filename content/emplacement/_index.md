@@ -6,6 +6,8 @@ title: "Emplacement"
 
 ## Où est construit l'observatoire ?
 
+{{< figure src="/images/thoramebasse.jpg" alt="Vue de Thorame-Basse" caption="Vue de Thorame-Basse" >}}
+
 Le site d'implantation de l'observatoire a été choisi en faisant un compromis entre plusieurs paramètres classés par ordre décroissant d'importance.
 
 1. L'objectif de ce projet est de profiter de la commande à distance pour s'affranchir des problèmes d'accessibilité physique et exploiter un « bon site » astronomique. Un sommet de montagne s'imposait.

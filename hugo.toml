@@ -1,6 +1,9 @@
 baseURL = 'https://galatee-observatory.org/'
 languageCode = 'fr-fr'
+DefaultContentLanguage = "fr-fr"
 title = 'Galatée Observatory'
+copyright = "José Mans et Thomas Prévost"
+author = "Thomas Prévost"
 theme = 'galatee'
 
 [menu]
